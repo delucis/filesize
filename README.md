@@ -34,7 +34,7 @@ FS('my-file.txt', function (error, size) {
 
 ## API
 
-### `@delucis/filesize(path, [options], callback)`
+### `@delucis/filesize(path, [options,] callback)`
 
 #### path
 
