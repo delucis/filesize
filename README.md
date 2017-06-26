@@ -1,5 +1,7 @@
 # @delucis/filesize
 
+[![Build Status](https://travis-ci.org/delucis/filesize.svg?branch=master)](https://travis-ci.org/delucis/filesize)
+
 A minimal, asynchronous library that returns human-friendly file sizes. Wraps [`filesize`][d98c819c] and uses Node’s `fs.stat` to retrieve sizes from the file system.
 
   [d98c819c]: https://www.npmjs.com/package/filesize "The filesize package on NPM"
