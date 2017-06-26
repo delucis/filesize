@@ -1,0 +1,33 @@
+{
+  "name": "@delucis/filesize",
+  "version": "0.0.1",
+  "description": "Utility that returns human-friendly file size strings from a file path.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delucis/filesize.git"
+  },
+  "keywords": [
+    "filesize",
+    "file",
+    "size",
+    "cli",
+    "node"
+  ],
+  "author": "Chris Swithinbank <swithinbank@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/delucis/filesize/issues"
+  },
+  "homepage": "https://github.com/delucis/filesize#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "filesize": "^3.5.10"
+  }
+}
