@@ -25,7 +25,7 @@ FS('my-file.txt', function (error, size) {
     console.error('Couldn’t get file size...')
     return
   }
-  console.log('Size of myFile.txt: ' + size);
+  console.log('Size of my-file.txt: ' + size);
   return
 })
 ```
