@@ -58,6 +58,14 @@ describe('filesize()', function () {
     })
   })
 
+  it('should work if the options parameter is null', function (done) {
+    FILESIZE('index.js', null, function (e, size) {
+      EXPECT(e).to.be.null
+      EXPECT(size).to.be.a('string')
+      done()
+    })
+  })
+
   it('should raise ENOENT error if the passed file does not exist', function (done) {
     FILESIZE('file-that-does-not-exist', function (e, size) {
       EXPECT(e).to.have.own.property('code')
