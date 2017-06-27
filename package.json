@@ -1,6 +1,6 @@
 {
   "name": "@delucis/filesize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility that returns human-friendly file size strings from a file path.",
   "main": "index.js",
   "scripts": {
