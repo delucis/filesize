@@ -1,6 +1,6 @@
 # @delucis/filesize
 
-[![Build Status](https://travis-ci.org/delucis/filesize.svg?branch=master)](https://travis-ci.org/delucis/filesize)
+[![Build Status](https://travis-ci.org/delucis/filesize.svg?branch=master)](https://travis-ci.org/delucis/filesize) [![Coverage Status](https://coveralls.io/repos/github/delucis/filesize/badge.svg?branch=master)](https://coveralls.io/github/delucis/filesize?branch=master)
 
 A minimal, asynchronous library that returns human-friendly file sizes. Wraps [`filesize`][d98c819c] and uses Node’s `fs.stat` to retrieve sizes from the file system.
 
