@@ -1,9 +1,11 @@
 {
   "name": "@delucis/filesize",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utility that returns human-friendly file size strings from a file path.",
   "main": "index.js",
-  "files": [ "index.js" ],
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "nyc mocha --reporter spec",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
